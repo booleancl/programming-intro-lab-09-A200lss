@@ -1,6 +1,6 @@
 from point import Point
 
-class TestDice:
+class TestPoint:
     def test_is_a_point(self):
         point = Point()
         assert isinstance(point, Point)
